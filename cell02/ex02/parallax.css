@@ -1,0 +1,41 @@
+body, html {
+	height: 100%;
+  }
+
+
+.parallax {
+	height: 100%;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	font-size: 15px;
+	color: black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chaton-1{
+	background-image: url("https://img.passeportsante.net/1200x675/2021-06-01/i107848-eduquer-un-chaton.jpeg");
+	
+}
+
+.chaton-2{
+	background-image: url("https://absolumentchats.com/wp-content/uploads/2021/03/petit-chaton-endormi.jpg");
+}
+
+
+.text-block{
+	height: 300px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}

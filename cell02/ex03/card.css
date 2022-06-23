@@ -1,0 +1,57 @@
+.text-block{
+	height: 100px;
+	color: black;
+	font-size: 30px;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center; /* align horizontal */
+}
+
+
+.picture{
+	background-image: url("https://www.madmoizelle.com/wp-content/uploads/2017/02/meme-fevrier-2017.jpg");
+	background-size: contain;
+	height: 180px;
+	width: auto;
+	background-repeat: no-repeat;
+}
+
+.name{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+.description{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: pink;
+}
+
+
+body{
+	background-color: black;
+}
+
+table{
+	background-color: gray;
+}
+
+img{
+	padding: 10px;
+}
